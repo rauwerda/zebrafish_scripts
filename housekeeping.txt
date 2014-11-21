@@ -1,3 +1,5 @@
+#Printing housekeeping genes
+
 a<- read.table("lowess.data.txt", sep = "\t", stringsAsFactor=F, header=T)
 
 png("hk_lowess.png")
