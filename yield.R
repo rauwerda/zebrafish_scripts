@@ -1,3 +1,4 @@
+#determination of the yields of each mother.
 a<-read.csv("../Yield-5x5.csv", sep = "\t", stringsAsFactor=F) 
 dim(a)
 a<- a[1:24,]
